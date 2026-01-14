@@ -23,8 +23,18 @@
       if-else)
     </code>
     <code>
-      Asynch -> handle operations seperately (setTimeout, setInterval, fetch)
+      Asynch -> handle operations seperately (setTimeout, setInterval, fetch).
+      Asynch is more readible than promise. promise could be useful for the
+      cases Promise.all, Promise.race
     </code>
+
+    <p>
+      <em>
+        Critical point: awaits can be useful if you need to obtain the result to
+        avoid interruption. For instance, without api response, we cannot move
+        forward
+      </em>
+    </p>
 
     <h3>CallBack</h3>
 
