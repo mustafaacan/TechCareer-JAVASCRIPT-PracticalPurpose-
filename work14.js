@@ -1,5 +1,5 @@
-let user = document.getElementById("user");
-let all = document.getElementById("all");
+const user = document.getElementById("user");
+const all = document.getElementById("all");
 const userbtn = document.getElementById("btn1");
 const allbtn = document.getElementById("btn2");
 const nw = document.getElementById("btn3");
