@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -11,6 +11,21 @@
       code {
         display: block;
         margin: 20px;
+      }
+      button {
+        border-radius: 10px;
+        box-shadow: 5px 5px 10px gray;
+      }
+      #btn4 {
+        background-color: crimson;
+        box-shadow: 5px 5px 10px gray;
+        padding: 5px;
+      }
+      #btn4:hover {
+        background-color: rgb(135, 11, 36);
+      }
+      button:not(#btn4):hover {
+        background-color: cadetblue;
       }
     </style>
   </head>
@@ -28,12 +43,22 @@
     </p>
 
     <div>
-      <button id="btn1">See the User Name</button>
+      <button id="btn1">See the User Name (key is "username")</button>
       <p id="user"></p>
     </div>
 
     <div>
       <button id="btn2">See the all Locale Storage</button>
+      <p id="all"></p>
+    </div>
+
+    <div>
+      <button id="btn3">Add / Change item</button>
+      <p id="all"></p>
+    </div>
+
+    <div>
+      <button id="btn4">Clear Locale Storage</button>
       <p id="all"></p>
     </div>
 
