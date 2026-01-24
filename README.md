@@ -1,3 +1,5 @@
+Just Practical Purposes for more example, please visit https://www.techcareer.net/courses/sifirdan-ileri-duzey-web-programlama-html-5-css-3-bootstrap5-tailwind-javascript/
+
 📘 TechCareer JavaScript – Practical Purpose
 
 This repository contains practical JavaScript exercises created during the TechCareer learning process.
